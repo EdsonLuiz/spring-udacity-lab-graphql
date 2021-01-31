@@ -1,0 +1,10 @@
+type Dog {
+    id: ID!
+    name: String!
+    breed: String!
+    origin: String!
+}
+
+type Query {
+    findAllDogs: [Dog]!
+}
